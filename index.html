@@ -8,7 +8,12 @@
 </head>
 <body>
     <div class="hero">
-        <h1>Welcome to Hero Video Template</h1>
+        <video autoplay muted loop id="hero-video">
+            <source src="drone-footage.mp4" type="video/mp4">
+            <!-- Fallback text for browsers that do not support the video element -->
+            <img src="HeroTest2POSTER.jpg" alt="Drone Footage">
+        </video>
+        <h1>Dave's Drone Photography</h1>
         <p>This is a responsive hero section that adapts to different screen sizes.</p>
     </div>
 </body>
