@@ -8,13 +8,29 @@
 </head>
 <body>
     <div class="hero">
+        <div id="mainMenu" class="borderBeam">
+            <button class="burger" id="burgerBtn" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="menu" id="menuNav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
         <video autoplay muted loop id="hero-video">
             <source src="HeroTest2FAST.mp4" type="video/mp4">
             <!-- Fallback text for browsers that do not support the video element -->
             <img src="HeroTest2POSTER.jpg" alt="Drone Footage">
         </video>
         <h1>Dave's Drone Photography</h1>
-        <p>This is a responsive hero section that adapts to different screen sizes.</p>
+        <p>Enjoy a drone photo of your event. Hourly rates or fixed fee</p>
     </div>
 </body>
+</html>
+<script src="burger.js"></script>
 </html>
